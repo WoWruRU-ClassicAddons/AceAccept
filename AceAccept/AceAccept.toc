@@ -1,10 +1,13 @@
 ## Interface: 11200
-## Author: Skyboat
-## Title: AceAccept
+## Title: AceAccept |cff7fff7f -Ace-|r
 ## Notes: Automatically accept summons and resurrections from other players
-## DefaultState:
-## Dependencies: Ace
-## OptionalDeps:
+## Notes-ruRU: Автоматическое принятие призыва и воскрешения от других игроков
+## Author: Skyboat
+## Version: 1.0
+## Dependencies: !Libs
 ## SavedVariables: AceAcceptDB
+
 AceAcceptLocals.lua
+AceAcceptLocals_ruRU.lua
+
 AceAccept.lua

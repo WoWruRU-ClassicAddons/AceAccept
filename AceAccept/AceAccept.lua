@@ -10,7 +10,7 @@ local ACEACCEPT_DEFAULT_OPTIONS = {
 -----------------------------------------------------------------------------------]]
 
 AceAccept = AceAddon:new({
-    name          = ACEACCEPT.NAME,
+    name          = "AceAccept",
     description   = ACEACCEPT.DESCRIPTION,
     version       = "1.0",
     releaseDate   = "22-09-2005",
@@ -21,7 +21,7 @@ AceAccept = AceAddon:new({
     category      = ACE_CATEGORY_OTHERS,
     db            = AceDatabase:new("AceAcceptDB"),
     defaults      = ACEACCEPT_DEFAULT_OPTIONS,
-    cmd           = AceChatCmd:new(ACEACCEPT.COMMANDS, ACEACCEPT.CMD_OPTIONS)
+    cmd           = AceChatCmd:new({"/aa", "/autoaccept"}, ACEACCEPT.CMD_OPTIONS)
 })
 
 function AceAccept:Initialize()
